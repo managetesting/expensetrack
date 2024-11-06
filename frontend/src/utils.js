@@ -13,4 +13,5 @@ export const handleError = (msg) => {
 }
 
 export const APIUrl =
-  process.env.REACT_APP_API_URL || "https://expensetrack-2q9j.onrender.com"
+  process.env.REACT_APP_API_URL || "http://localhost:8080"
+  
